@@ -89,4 +89,4 @@ Finds and returns the minimum Damerau-Levenshtein distance between a target stri
 
 ## License
 
-[MIT](https://github.com/remotal-io/fuzzy-dist/blob/HEAD/license) © Remotal
+[MIT](https://github.com/remotal-io/fuzzy-dist/tree/main/LICENSE) © Remotal
