@@ -19,7 +19,7 @@
 To calculate the standard Damerau-Levenshtein distance between two strings, simply instantiate the `FuzzyDist` class without specifying a keyboard layout.
 
 ```typescript
-import FuzzyDist from 'FuzzyDist';
+import FuzzyDist from 'fuzzy-dist';
 
 const fuzzyDist = new FuzzyDist();
 const distance = fuzzyDist.calculateDistance('kitten', 'sitten');
@@ -31,7 +31,7 @@ console.log(distance); // Outputs: 1
 To include keyboard distance in the Damerau-Levenshtein calculation, you can specify a keyboard layout when instantiating the `FuzzyDist` class. This will add an additional layer of accuracy by taking into account the physical distance between keys on a specified keyboard.
 
 ```typescript
-import FuzzyDist from 'FuzzyDist';
+import FuzzyDist from 'fuzzy-dist';
 
 const fuzzyDistQwerty = new FuzzyDist(FuzzyDist.QwertyKeyboard);
 const distance = fuzzyDistQwerty.calculateDistance('kitten', 'sitten');
