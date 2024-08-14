@@ -1,0 +1,43 @@
+{
+  "type": "module",
+  "name": "fuzzy-dist",
+  "version": "0.0.1",
+  "description": "Over simplistic fuzzy search library using Damerau-Levenshtein and optionally the keyboard layout to calculate distances.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "test": "vitest run",
+    "test:watch": "vitest watch",
+    "coverage": "vitest run --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/remotal-io/fuzzy-dist.git"
+  },
+  "keywords": [
+    "fuzzy",
+    "search",
+    "Damerau",
+    "Levenshtein",
+    "distance",
+    "algorithm",
+    "string",
+    "leven",
+    "match"
+  ],
+  "author": "Mickaël Cassy",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/remotal-io/fuzzy-dist/issues"
+  },
+  "homepage": "https://github.com/remotal-io/fuzzy-dist#readme",
+  "devDependencies": {
+    "@vitest/coverage-v8": "^2.0.5",
+    "typescript": "^5.5.4",
+    "vitest": "^2.0.5"
+  }
+}
