@@ -17,7 +17,7 @@
     "test:watch": "vitest watch",
     "coverage": "vitest run --coverage",
     "prepare": "husky",
-    "publishToNPM": "nmp test && npm run build && npm publish"
+    "publishToNPM": "npm test && npm run build && npm publish"
   },
   "repository": {
     "type": "git",
