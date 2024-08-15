@@ -7,7 +7,6 @@
     <a href='https://coveralls.io/github/remotal-io/fuzzy-dist?branch=main'><img src='https://coveralls.io/repos/github/remotal-io/fuzzy-dist/badge.svg?branch=main' alt='Coverage Status' /></a>
     <a href='https://github.com/remotal-io/fuzzy-dist/actions/workflows/node.js.yml'><img src='https://github.com/remotal-io/fuzzy-dist/actions/workflows/node.js.yml/badge.svg' alt='Build Status' /></a>
     <a href='https://www.npmjs.com/package/fuzzy-dist'><img src='https://img.shields.io/npm/v/fuzzy-dist.svg?style=flat-square' alt='npm version' /></a>
-    <a href='https://www.npmjs.com/package/fuzzy-dist'>npm</a>
   </p>
 </p>
 
