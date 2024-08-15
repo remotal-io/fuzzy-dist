@@ -124,5 +124,4 @@ describe('calculateDistanceWithQwerty', () => {
     const cd = new CombinedDistance(new QwertyKeyboard());
     expect(cd.calculateDistance('kitten', 'sitten')).toBe(2);
   });
-
 });

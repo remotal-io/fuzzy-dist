@@ -1,5 +1,12 @@
-import CombinedDistance from "./combined-distance";
-import { Keyboard, QwertyKeyboard, QwertzKeyboard, AzertyKeyboard, TurkishFKeyboard, InScriptKeyboard } from "./keyboards";
+import CombinedDistance from './combined-distance';
+import {
+  Keyboard,
+  QwertyKeyboard,
+  QwertzKeyboard,
+  AzertyKeyboard,
+  TurkishFKeyboard,
+  InScriptKeyboard,
+} from './keyboards';
 
 class FuzzyDist {
   public static QwertyKeyboard = 1;
@@ -36,7 +43,7 @@ class FuzzyDist {
 
   /**
    * Calculates the combined Damerau-Levenshtein between two strings and optional keyboard distance as well.
-   * 
+   *
    * @param {string} s1 The first string.
    * @param {string} s2 The second string.
    * @returns {number} The combined distance.
@@ -58,7 +65,9 @@ class FuzzyDist {
     return minDistance;
   }
 
-  public get kbd() { return this.keyboard };
+  public get kbd() {
+    return this.keyboard;
+  }
 
   private getKeyboardById(keyboardId: number | null | undefined): Keyboard | null {
     switch (keyboardId) {
@@ -76,7 +85,6 @@ class FuzzyDist {
         return null;
     }
   }
-
 }
 
 export default FuzzyDist;

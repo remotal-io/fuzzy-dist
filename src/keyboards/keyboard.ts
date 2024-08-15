@@ -2,7 +2,9 @@ abstract class Keyboard {
   protected abstract kname: string;
   protected abstract layout: { [key: string]: [number, number] };
 
-  public get name() { return this.kname; }
+  public get name() {
+    return this.kname;
+  }
 
   public getDistance(char1: string, char2: string): number {
     const pos1 = this.layout[char1.toLowerCase()];

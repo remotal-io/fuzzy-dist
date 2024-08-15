@@ -1,5 +1,11 @@
 import { describe, it, expect } from 'vitest';
-import { QwertyKeyboard, QwertzKeyboard, AzertyKeyboard, TurkishFKeyboard, InScriptKeyboard } from "../src/keyboards";
+import {
+  QwertyKeyboard,
+  QwertzKeyboard,
+  AzertyKeyboard,
+  TurkishFKeyboard,
+  InScriptKeyboard,
+} from '../src/keyboards';
 
 describe('Keyboard getDistance method', () => {
   it('should return 0 for the same key in QwertyKeyboard', () => {
