@@ -7,6 +7,38 @@ import {
   InScriptKeyboard,
 } from '../src/keyboards';
 
+describe('Keyboard Implementations', () => {
+  it('should be complete on QwertyKeyboard', () => {
+    const keyboard = new QwertyKeyboard();
+    expect(keyboard.getDistance('a', 'a')).toBe(0);
+    expect(keyboard.name?.length).toBeGreaterThan(0);
+  });
+
+  it('should be complete on QwertzKeyboard', () => {
+    const keyboard = new QwertzKeyboard();
+    expect(keyboard.getDistance('a', 'a')).toBe(0);
+    expect(keyboard.name?.length).toBeGreaterThan(0);
+  });
+
+  it('should be complete on AzertyKeyboard', () => {
+    const keyboard = new AzertyKeyboard();
+    expect(keyboard.getDistance('a', 'a')).toBe(0);
+    expect(keyboard.name?.length).toBeGreaterThan(0);
+  });
+
+  it('should be complete on TurkishFKeyboard', () => {
+    const keyboard = new TurkishFKeyboard();
+    expect(keyboard.getDistance('a', 'a')).toBe(0);
+    expect(keyboard.name?.length).toBeGreaterThan(0);
+  });
+
+  it('should be complete on InScriptKeyboard', () => {
+    const keyboard = new InScriptKeyboard();
+    expect(keyboard.getDistance('1', '1')).toBe(0);
+    expect(keyboard.name?.length).toBeGreaterThan(0);
+  });
+});
+
 describe('Keyboard getDistance method', () => {
   it('should return 0 for the same key in QwertyKeyboard', () => {
     const keyboard = new QwertyKeyboard();
