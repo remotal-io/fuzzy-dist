@@ -11,6 +11,6 @@ export default defineConfig({
     },
   },
   esbuild: {
-    target: 'es2016'
+    target: 'es2016',
   },
 });

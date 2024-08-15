@@ -1,0 +1,17 @@
+src/
+test/
+coverage/
+eslint.config.js
+.eslintignore
+.eslintrc.js
+.gitignore
+.codeclimate.yml
+.coveralls.yml
+tsconfig.json
+tsconfig.lint.json
+.prettierignore
+.prettierrc.json
+CHANGELOG.md
+.github
+.husky
+vitest.*.ts

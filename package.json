@@ -9,10 +9,14 @@
     "dist"
   ],
   "scripts": {
+    "lint": "eslint src test",
+    "format": "prettier \"{,**/}*.{ts,md}\" --check",
+    "format:fix": "prettier \"{,**/}*.{ts,md}\" --write",
     "build": "tsc",
     "test": "vitest run",
     "test:watch": "vitest watch",
-    "coverage": "vitest run --coverage"
+    "coverage": "vitest run --coverage",
+    "prepare": "husky"
   },
   "repository": {
     "type": "git",
@@ -36,8 +40,18 @@
   },
   "homepage": "https://github.com/remotal-io/fuzzy-dist#readme",
   "devDependencies": {
+    "@eslint/js": "^9.9.0",
     "@vitest/coverage-v8": "^2.0.5",
+    "eslint": "^9.9.0",
+    "globals": "^15.9.0",
+    "husky": "^9.1.4",
+    "lint-staged": "^15.2.9",
+    "prettier": "^3.3.3",
     "typescript": "^5.5.4",
+    "typescript-eslint": "^8.1.0",
     "vitest": "^2.0.5"
+  },
+  "lint-staged": {
+    "*.{ts,md}": "prettier --write --ignore-unknown"
   }
 }
