@@ -2,6 +2,10 @@
   <img src="" alt="Fuzzy Dist" width=70>
   <h3 align="center">Fuzzy Dist</h3>
   <p align="center">Over simplistic fuzzy search library using Damerau-Levenshtein and optionally the keyboard layout to calculate distances.</p>
+  <p align="center">
+    <a href="https://github.com/remotal-io/fuzzy-dist/tree/main/LICENSE"><img src="https://img.shields.io/badge/license-MIT-blue.svg" alt="MIT License"/></a>
+  </p>
+  
 </p>
 
 # FuzzyDist
