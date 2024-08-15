@@ -1,2 +1,22 @@
+# Ignore specific files
+.DS_Store
+.settings.xml
+.monitor
+.DS_Store
+*.orig
+npm-debug.log
+npm-debug.log.*
+*.dat
+.vscode
+
+
+# Ignore various Node.js related directories and files
 node_modules
 dist
+coverage
+
+# vitest temp / cache files
+tsconfig.vitest-temp.json
+
+# Ignore IntelliJ based IDEs project files
+.idea
