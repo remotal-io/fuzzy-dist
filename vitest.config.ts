@@ -6,7 +6,7 @@ export default defineConfig({
     environment: 'node',
     setupFiles: [], // Add paths to setup files if needed
     coverage: {
-      reporter: ['text', 'json', 'html'],
+      reporter: ['lcov'],
       provider: 'v8',
     },
   },
