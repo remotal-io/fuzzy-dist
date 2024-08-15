@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="" alt="Fuzzy Dist" width=70>
+  <img src="https://github.com/remotal-io/fuzzy-dist/tree/main/fuzzy-dist.png" alt="Fuzzy Dist" width=70>
   <h3 align="center">Fuzzy Dist</h3>
   <p align="center">Over simplistic fuzzy search library using Damerau-Levenshtein and optionally the keyboard layout to calculate distances.</p>
   <p align="center">
