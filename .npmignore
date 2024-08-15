@@ -1,6 +1,20 @@
+# Ignore specific files
+.DS_Store
+.settings.xml
+.monitor
+.DS_Store
+*.orig
+npm-debug.log
+npm-debug.log.*
+*.dat
+.vscode
+
+# Ignore various Node.js related directories and files
 src/
 test/
 coverage/
+node_modules/
+
 eslint.config.js
 .eslintignore
 .eslintrc.js
