@@ -1,7 +1,7 @@
 {
   "type": "module",
   "name": "fuzzy-dist",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Over simplistic fuzzy search library using Damerau-Levenshtein and optionally the keyboard layout to calculate distances.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
